@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:panelBackground="#00BBFF">
+
+    <item
+        android:id="@+id/new_reminder"
+        android:title="action new reminder"
+        android:icon="@mipmap/ic_add_reminder"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_settings"
+        android:title="action settings"
+        android:icon="@mipmap/ic_settings"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom" />
+
+</menu>
